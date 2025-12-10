@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-CitasApplication<citas>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "pe.cjp.citas.CitasApplication",
+      "projectName": "citas",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
