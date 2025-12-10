@@ -44,7 +44,8 @@ document.addEventListener("DOMContentLoaded", function () {
 function cargarEspecialidades() {
   fetch("http://localhost:8080/api/especialidades",
   // ****************************************************
-            {headers: { "X-API-KEY": "123456" }} // API KEY OBLIGATORIA
+    {headers: { "X-API-KEY": "123456" }} // API KEY OBLIGATORIA - Carlos
+
   // ****************************************************
   )
     .then(response => response.json())
