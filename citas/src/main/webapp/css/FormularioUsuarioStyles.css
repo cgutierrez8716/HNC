@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.register-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: calc(100% - 20px); /* Ajuste para el ancho del campo de entrada */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group .hint {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+    display: block;
+}
+
+.toggle-password {
+    background: url('path/to/eye-icon.png') no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 36px;
+}
+
+.register-form form {
+    position: relative;
+}
+
+.register-form form .form-group {
+    position: relative;
+}
+
+.register-form .form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.register-form .form-group input[type="submit"]:hover {
+    background-color: #444;
+}
+
+.register-form form p {
+    text-align: center;
+}
+
+.register-form form p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-form form p a:hover {
+    text-decoration: underline;
+}

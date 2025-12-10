@@ -1,0 +1,14 @@
+/* FOOTER ADMIN */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Altura mínima del viewport */
+}
+
+.content {
+  flex: 1; /* Ajusta el contenido para expandirse */
+}
+
+footer {
+  flex-shrink: 0; /* Evita que el footer se contraiga */
+}
